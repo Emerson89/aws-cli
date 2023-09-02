@@ -10,4 +10,4 @@ RUN pip --no-cache-dir install awscli
 
 WORKDIR /aws
 
-ENTRYPOINT [ "aws" ]
+ENTRYPOINT ["aws"]
